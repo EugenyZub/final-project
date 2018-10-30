@@ -1,13 +1,13 @@
+import calc from './parts/calc';
+import form from './parts/sendForm';
+import modal from './parts/modal';
+import scroll from './parts/smothingScroll';
+import slider from './parts/slider';
+import tabs from './parts/tabs';
+import timer from './parts/timer';
+
 window.addEventListener('DOMContentLoaded', function() {
     'use strict';
-    //import './parts/calc';
-    let calc = require('./parts/calc'),
-        form = require('./parts/sendForm'),
-        modal = require('./parts/modal'),
-        scroll = require('./parts/smothingScroll'),
-        slider = require('./parts/slider'),
-        tabs = require('./parts/tabs'),
-        timer = require('./parts/timer');
 
     calc();
     form();
