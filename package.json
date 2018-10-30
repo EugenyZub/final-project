@@ -1,7 +1,6 @@
 {
   "name": "lesson",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,12 +12,20 @@
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
-    "@babel/preset-react": "^7.0.0",
     "webpack": "^4.23.1",
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "babel-loader": "^8.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EugenyZub/final-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EugenyZub/final-project/issues"
+  },
+  "homepage": "https://github.com/EugenyZub/final-project#readme",
+  "description": ""
 }

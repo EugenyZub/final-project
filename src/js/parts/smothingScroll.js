@@ -15,4 +15,4 @@ function scroll() {
     }
 }
 
-module.exports = scroll;
+export default scroll;
