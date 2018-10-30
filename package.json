@@ -1,7 +1,8 @@
 {
-  "name": "lesson",
+  "name": "final",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,14 +19,5 @@
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "babel-loader": "^8.0.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EugenyZub/final-project.git"
-  },
-  "bugs": {
-    "url": "https://github.com/EugenyZub/final-project/issues"
-  },
-  "homepage": "https://github.com/EugenyZub/final-project#readme",
-  "description": ""
+  }
 }
